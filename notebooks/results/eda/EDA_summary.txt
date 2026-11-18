@@ -1,0 +1,57 @@
+
+PATHSNAP - EXPLORATORY DATA ANALYSIS
+====================================
+
+DATASET
+-------
+Training trips: 80
+Student-testing trips: 10
+
+Total GPS observations:
+227,577
+
+GPS DISPLACEMENT
+----------------
+Mean:
+14.398 metres
+
+Median:
+11.579 metres
+
+Maximum:
+887.547 metres
+
+Timestamp-displacement Spearman correlation:
+0.1702
+
+ROAD NETWORK
+------------
+Mean training nodes:
+24168.56
+
+Mean student-testing nodes:
+9068.90
+
+Mean training arcs:
+48461.30
+
+Mean student-testing arcs:
+18504.10
+
+IMPORTANT OBSERVATIONS
+---------------------
+1. GPS observations vary substantially between trips.
+2. The dataset contains geographically diverse trips.
+3. A small number of route transitions are disconnected.
+4. Timestamp intervals contain extreme gaps.
+5. Large GPS displacements require individual investigation.
+6. Road-network sizes vary considerably between trips.
+7. Original observations were retained without modification.
+
+LIMITATIONS
+-----------
+1. Timestamp unit has not been established.
+2. Geographic centroid analysis is descriptive.
+3. Haversine distances are straight-line distances.
+4. Disconnected route transitions were not repaired.
+5. No model performance conclusions are drawn from EDA.
