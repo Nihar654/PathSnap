@@ -1,32 +1,30 @@
-<<<<<<< HEAD
-﻿# Git Large File Exclusions
-results/training_candidates.csv
-
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.env
-.venv/
-env/
-venv/
-=======
+# Dependencies
+node_modules/
+**/node_modules/
 
 # Python virtual environment
 .venv/
+**/.venv/
 venv/
 env/
 
 # Python cache
 __pycache__/
+**/__pycache__/
 *.py[cod]
+*$py.class
+*.so
+.env
+
+# Raw competition dataset & heavy directories
+data/
+**/data/
+evaluator_test/
+*.zip
+*.tar.gz
 
 # Jupyter temporary files
 .ipynb_checkpoints/
-
-# Raw competition dataset
-data/raw/
 
 # OS-generated files
 .DS_Store
@@ -34,4 +32,4 @@ Thumbs.db
 
 # IDE settings
 .vscode/
->>>>>>> 3f4be38 (Add EDA and geographical visualizations)
+.idea/
